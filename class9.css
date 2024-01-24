@@ -1,0 +1,13 @@
+h1{
+
+    color: red; 
+    background-color: black; 
+    text-align:center; 
+
+} 
+p{
+    font-family: 'Grape Nuts', cursive;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik Burned', system-ui;
+}
