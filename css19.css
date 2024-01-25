@@ -1,0 +1,11 @@
+img{
+    width:100px;
+    height:100px;
+    background-repeat: no-repeat;
+}
+img:hover{
+    opacity: 0.5; 
+    background-repeat: no-repeat;
+    width:100px;
+    height:100px;
+} 
