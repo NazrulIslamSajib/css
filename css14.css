@@ -1,0 +1,14 @@
+h1{
+    color:green;
+    text-align: center; 
+    display:inline-block;
+} 
+span{
+    color:tomato; 
+    text-align: center; 
+     
+    
+} 
+ul,li{
+    display:inline
+}
