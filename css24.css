@@ -1,0 +1,27 @@
+.box{
+    width:100px;
+    height: 100px;
+    background-color: tomato;
+    margin: 100px auto; 
+    border-radius: 50%;
+} 
+.box:hover{
+    width: 50px;
+    height: 50px;
+    background-color: aqua; 
+    transition: 1s; 
+    border-radius: 50%;
+} 
+h1{
+    color:black; 
+    font-size:20px;
+    padding:25px;
+}
+h1:hover{
+    color:greenyellow;  
+    font-size:8px; 
+    padding:25px;
+} 
+a{
+    text-decoration: none; 
+}
