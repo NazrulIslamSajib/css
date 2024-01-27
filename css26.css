@@ -1,0 +1,14 @@
+.flexbox{
+    background-color: aliceblue;
+    font-size: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+
+} 
+.flexbox>div{
+    background-color: blueviolet; 
+    margin: 30px;
+    padding: 20px;
+}
