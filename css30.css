@@ -1,0 +1,92 @@
+body{
+    background-color: antiquewhite;  
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px; 
+    width:100px; 
+    color: white;
+
+}  
+/* header start */
+header{ 
+    width: 1394px;
+    height: 250px;
+    background-color:black;  
+    display: flex;
+    
+    
+} 
+.logo{
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size:30px;
+    color:aliceblue; 
+    margin: 10px auto;
+} 
+.navbar{
+    display:flex;
+    justify-content: center;
+} 
+a{
+    color: white;
+    font-size: 16px;
+    font:bold;
+    text-transform: uppercase; 
+    text-decoration: none;
+    text-align: center; 
+}
+.navbar ul{
+    list-style: none;  
+} 
+.navbar ul li{
+    float: left;
+    width: 287px;
+    height: 52px;
+    text-align: center;
+    border:1px solid white;  
+    line-height: 50px;
+}  
+.navbar ul li:hover{ 
+    background-color: crimson;
+    
+}  
+.navbar ul ul{
+    display:none;
+}
+.navbar ul li:hover>ul{
+    display:block;
+} 
+/* header end */  
+footer{
+    color: black; 
+    bottom: 0; 
+    text-align: center;
+    background-color: azure; 
+    width: 1364px;
+    height: 151px; 
+    bottom: 0%;
+}  
+i{
+    font-size: 26px;
+} 
+
+.form
+{
+  background-color:tomato;
+  width: 1349px;
+  height: 192px; 
+  text-align: center;
+  margin: 131px 510px;
+  width: fit-content;
+  height: fit-content; 
+  padding: 20px 80px; 
+  border-radius:2%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+  border-color: aqua;
+} 
+.form input{
+    padding: 5px 5px; 
+    border-color: black; 
+} 
+.form btn{
+    font-weight: bold;
+}
